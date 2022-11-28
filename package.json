@@ -1,0 +1,36 @@
+{
+  "name": "canvas-editor",
+  "description": "A library for building <canvas> based editors",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": ">=5.16.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": [
+      "google",
+      "prettier"
+    ],
+    "parserOptions": {
+      "ecmaVersion": "latest"
+    },
+    "overrides": [
+      {
+        "files": [
+          "*.js"
+        ],
+        "rules": {
+          "require-jsdoc": "off"
+        }
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint src"
+  }
+}
