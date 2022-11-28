@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 class Canvas {
   constructor() {
     this.stage = new Konva.Stage({
@@ -322,5 +323,3 @@ class Canvas {
     this.transformer.nodes([]);
   };
 }
-
-window.Canvas = Canvas;
