@@ -323,5 +323,4 @@ class Canvas {
   };
 }
 
-const canvas = new Canvas();
-console.log('Created canvas:', canvas);
+window.Canvas = Canvas;
